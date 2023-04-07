@@ -37,7 +37,7 @@ function App() {
             <h1>Artist: {genre?.artist?.name}</h1>
             <h2>Song Title: {genre.name}</h2>
             <h2>Album: {genre?.album?.name}</h2>
-            <h2>Genre: {genre?.album?.genres[0]?.name}</h2>
+            <h2>Genre: {genre?.album?.genres?.[0]?.name}</h2>
             </div>)}
         </>
     )
